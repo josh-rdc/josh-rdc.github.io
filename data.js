@@ -3,7 +3,7 @@ export const bio = [
   "Here, I will showcase my achievements and the impactful projects I have undertaken during my journey from civil engineering to becoming an AI specialist.",  
   "I began my career in civil engineering, gaining expertise in technical document handling and data analysis, while building a solid understanding of engineering principles. Transitioning into a managerial role, I combined technical knowledge with business acumen, managing budgets, schedules, and client relationships—strengthening my skills in problem-solving, critical thinking, and leadership.",
   "Eager to explore the intersection of technology and innovation, I pursued a master’s degree in Artificial Intelligence. During this program, I embarked on transformative projects that tackled real-world challenges using machine learning, data science, and AI-driven solutions. These experiences solidified my passion for creating data-driven systems that deliver meaningful impact.",
-  "**This portfolio is a testament to what I can bring to the table—an engineer’s precision, a manager’s strategic vision, and an AI practitioner’s innovative mindset.**",
+  "This portfolio is a testament to what I can bring to the table—an engineer’s precision, a manager’s strategic vision, and an AI practitioner’s innovative mindset.",
 ];
 
 export const skills = [
