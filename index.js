@@ -471,13 +471,15 @@ import { URLs } from './user-data/urls.js';
   
   populateBio(bio, "bio");
   
+  fetchGitConnectedData(gitConnected);
+  
   populateExp_Edu(education, "education");
   populateExp_Edu(experience, "experience");
 
   // populateSkills(skills, "skills");
   
   // fetchBlogsFromMedium(medium);
-  // fetchGitConnectedData(gitConnected);
+
   
   populateProjects(webProjects, "web-projects");
   populateProjects(softwareProjects, "software-projects");
