@@ -1,9 +1,9 @@
 export const bio = [
-  "Hello, I’m Josh, and welcome to my portfolio!",
-  "Here, I’ll showcase my achievements and the impactful projects I’ve undertaken during my journey from civil engineering to becoming an AI specialist.",  
-  "I began my career in Civil Engineering, gaining expertise in technical document handling and data analysis, while building a solid understanding of engineering principles. Transitioning into a managerial role, I combined technical knowledge with business acumen, managing budgets, schedules, and client relationships—strengthening my skills in problem-solving, critical thinking, and leadership.",
+  "Hello, I am Josh, and welcome to my portfolio!",
+  "Here, I will showcase my achievements and the impactful projects I have undertaken during my journey from civil engineering to becoming an AI specialist.",  
+  "I began my career in civil engineering, gaining expertise in technical document handling and data analysis, while building a solid understanding of engineering principles. Transitioning into a managerial role, I combined technical knowledge with business acumen, managing budgets, schedules, and client relationships—strengthening my skills in problem-solving, critical thinking, and leadership.",
   "Eager to explore the intersection of technology and innovation, I pursued a master’s degree in Artificial Intelligence. During this program, I embarked on transformative projects that tackled real-world challenges using machine learning, data science, and AI-driven solutions. These experiences solidified my passion for creating data-driven systems that deliver meaningful impact.",
-  "This portfolio is a testament to what I can bring to the table—an engineer’s precision, a manager’s strategic vision, and an AI practitioner’s innovative mindset.",
+  "**This portfolio is a testament to what I can bring to the table—an engineer’s precision, a manager’s strategic vision, and an AI practitioner’s innovative mindset.**",
 ];
 
 export const skills = [
@@ -57,9 +57,9 @@ export const education = [
     duration: "2023 - 2025",
     subtitle: "Master of Engineering in Artificial Intelligence",
     details: [
-      `Consistent university scholar with a cumulative general weighted average of 1.20/1.0`,
-      `Studied the fundamental concepts of artificial intelligence, tackling the very foundation of algorithms, 
-        implementing classical and deep learning models for real-world applications`,
+      `Consistent university scholar with a cumulative general weighted average of 1.20/1.0.`,
+      `Studied the fundamental mathematical concepts of artificial intelligence, tackling the very foundation of algorithms.`,
+      `Engaged in research projects that focused on machine learning, data science, and AI-driven solutions.`,
 
 
     ],
@@ -70,7 +70,6 @@ export const education = [
       "Data Science",
       "ML Operations",
       "Python",
-      "Data Structures",
       "Data Engineering",
     ],
     icon: "images/01 Education - Graduate.png",
