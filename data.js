@@ -1,7 +1,7 @@
 export const bio = [
   "Hello, this is Josh and welcome to my portfolio!",
-  "Multi-skilled, highly competent engineer offering extensive experience and a commitment to continuous growth.",
-  "With over two years as a structural design engineer at a prominent international EPC company specializing in the oil and gas sector, excelled in developing complex structural solutions and managing intricate projects. Transitioned to a project management engineer role, expanding expertise to encompass financial oversight, scheduling, scoping, and commercial management of various local projects, demonstrating a seamless integration of technical and managerial skills.",
+  "Here I will share my journey, coming from a background of civil engineering, honing my skills in technical data analysis and project management, then finally transitioning to the industry of artificial intelligence",
+  // "Multi-skilled, highly competent engineer offering extensive experience and a commitment to continuous growth.",
 
 ];
 
@@ -48,6 +48,121 @@ export const skills = [
 //     color: "6",
 //     percentage: "70",
 //   },
+];
+
+export const education = [
+  {
+    title: "University of the Philippines Diliman",
+    duration: "2023 - 2025",
+    subtitle: "Master of Engineering in Artificial Intelligence",
+    details: [
+      `Consistent university scholar with a cumulative general weighted average of 1.20/1.0`,
+      `Studied the fundamental concepts of artificial intelligence, tackling the very foundation of algorithms, 
+        implementing classical and deep learning models for real-world applications`,
+
+
+    ],
+    tags: [
+      "Machine Learning",
+      "Classical Learning Models",
+      "Deep Learning Models",
+      "Data Science",
+      "ML Operations",
+      "Python",
+      "Data Structures",
+      "Data Engineering",
+    ],
+    icon: "images/01 Education - Graduate.png",
+  },
+  {
+    title: "Nueva Ecija University of Science and Technology",
+    duration: "",
+    subtitle: "Bachelor of Science in Civil Engineering",
+    details: [
+      `Proudly graduated department valedictorian and cum laude with a general weighted average of 1.51/1.0, 
+        the first latin honor awardee from the more than 10-year history of the department.`,
+      `Served as the Student Chapter President for Philippines Institute of Civil Engineers (PICE) on the last year of my degree`,
+      `Represented the university for the South East Asian Minister of Education Organization – SEA-TVET Internship Exchange Program in Indonesia
+        for technical and management training and cultural immersion.`,
+      
+    ],
+    tags: [
+      "Engineering",
+      "Physics",
+      'Mathematics',
+      "Data Analysis",
+
+    ],
+    icon: "images/01 Education - College.png",
+  },
+];
+
+export const experience = [
+  {
+    title: "Shiprocket (Bigfoot Solution Private Limited)",
+    duration: "September 2022 - Present",
+    subtitle: "Software Engineer",
+    details: ["Working in support and escalation team."],
+    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+    icon: "truck ",
+  },
+  {
+    title: "Biofourmis India Private Limited",
+    duration: "April 2022 - Jul 2023",
+    subtitle: "Software Engineer",
+    details: [
+      `Implemented microfrontends using the Module Federation Plugin in Angular.
+            Rendered components from remote modules/repositories, enabling a modular and scalable architecture`,
+      `Upgraded application with a dynamic base URL for flexible operation across multiple regions and verticals, leading to
+            recognition with the Biofourmis Bravo award in Q1, 2023.`,
+      `Implemented RxState for managing local state in components, resulting in elegant and reactive facades.`,
+      `Utilized Twilio-Video for group video call rooms and Countly for Web Analytics.`,
+      `Integrated NGXS WebSocket, enhancing state management and replacing legacy service injections.`,
+      `Implemented extensive RxJS usage for reactive programming, resulting in efficient data handling, improved state
+            management, and enhanced application performance.`,
+      `Dramatically optimized load time and performance through code splitting, lazy loading, caching, and preload`,
+      `Enhanced video call experience by implementing real-time switching of I/O devices and audio level indicators,
+            resulting in reduced audio issues and increased user satisfaction.`,
+      `Owned and led successful Angular application upgrades from version 12 to 13 and 14, improving performance
+            and enhancing features.`,
+    ],
+    tags: [
+      "JavaScript",
+      "Angular",
+      "RxJS",
+      "NGXS",
+      "TypeScript",
+      "RxState",
+      "Webpack",
+      "Optimization",
+    ],
+    icon: "heartbeat",
+  },
+  {
+    title: "Novopay Solutions Private Limited",
+    duration: "June 2020 - April 2022",
+    subtitle: "Software Engineer",
+    details: [
+      `Implemented AePS Services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements,
+            and Money transfer.`,
+      `Implemented QR Code integration for retailer wallet money loading, Clevertap events for user action tracking,
+            Freshdesk ticketing, Chatbot services, and Retailer onboarding/admin interfaces.`,
+      `Developed retailer QR code system for seamless money loading into wallets, resulting in improved user transactions.`,
+      `Achieved 70 percent code coverage of the entire application by writing unit tests for legacy code.`,
+    ],
+    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+    icon: "qrcode",
+  },
+  {
+    title: "ThinkPedia LLP",
+    duration: "May 2019 - June 2019",
+    subtitle: "SDE Intern",
+    details: [
+      `Developed a customer web application for social media management, supporting the advertisement domain.`,
+    ],
+    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
+    icon: "group",
+  },
 ];
 
 export const projects = {
@@ -148,100 +263,6 @@ export const projects = {
     },
   ],
 };
-
-export const experience = [
-  {
-    title: "Shiprocket (Bigfoot Solution Private Limited)",
-    duration: "September 2022 - Present",
-    subtitle: "Software Engineer",
-    details: ["Working in support and escalation team."],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-    icon: "truck ",
-  },
-  {
-    title: "Biofourmis India Private Limited",
-    duration: "April 2022 - Jul 2023",
-    subtitle: "Software Engineer",
-    details: [
-      `Implemented microfrontends using the Module Federation Plugin in Angular.
-            Rendered components from remote modules/repositories, enabling a modular and scalable architecture`,
-      `Upgraded application with a dynamic base URL for flexible operation across multiple regions and verticals, leading to
-            recognition with the Biofourmis Bravo award in Q1, 2023.`,
-      `Implemented RxState for managing local state in components, resulting in elegant and reactive facades.`,
-      `Utilized Twilio-Video for group video call rooms and Countly for Web Analytics.`,
-      `Integrated NGXS WebSocket, enhancing state management and replacing legacy service injections.`,
-      `Implemented extensive RxJS usage for reactive programming, resulting in efficient data handling, improved state
-            management, and enhanced application performance.`,
-      `Dramatically optimized load time and performance through code splitting, lazy loading, caching, and preload`,
-      `Enhanced video call experience by implementing real-time switching of I/O devices and audio level indicators,
-            resulting in reduced audio issues and increased user satisfaction.`,
-      `Owned and led successful Angular application upgrades from version 12 to 13 and 14, improving performance
-            and enhancing features.`,
-    ],
-    tags: [
-      "JavaScript",
-      "Angular",
-      "RxJS",
-      "NGXS",
-      "TypeScript",
-      "RxState",
-      "Webpack",
-      "Optimization",
-    ],
-    icon: "heartbeat",
-  },
-  {
-    title: "Novopay Solutions Private Limited",
-    duration: "June 2020 - April 2022",
-    subtitle: "Software Engineer",
-    details: [
-      `Implemented AePS Services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements,
-            and Money transfer.`,
-      `Implemented QR Code integration for retailer wallet money loading, Clevertap events for user action tracking,
-            Freshdesk ticketing, Chatbot services, and Retailer onboarding/admin interfaces.`,
-      `Developed retailer QR code system for seamless money loading into wallets, resulting in improved user transactions.`,
-      `Achieved 70 percent code coverage of the entire application by writing unit tests for legacy code.`,
-    ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-    icon: "qrcode",
-  },
-  {
-    title: "ThinkPedia LLP",
-    duration: "May 2019 - June 2019",
-    subtitle: "SDE Intern",
-    details: [
-      `Developed a customer web application for social media management, supporting the advertisement domain.`,
-    ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
-    icon: "group",
-  },
-];
-
-export const education = [
-  {
-    title: "B.Tech. in Computer Science and Engineering",
-    duration: "2016 - 2020",
-    subtitle: "National Institute of Technology, Warangal",
-    details: [],
-    tags: [
-      "Data Structures & Algorithms",
-      "Operating Systems",
-      "Database Management System",
-      "Computer Networks",
-      "Compiler Designing",
-      "Cloud Computing",
-    ],
-    icon: "images/01 Education - College.png",
-  },
-  {
-    title: "Class 12th in Science and Mathematics",
-    duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
-    details: [],
-    tags: ["Physics", "Chemistry", "Mathematics"],
-    icon: "book",
-  },
-];
 
 export const footer = [
 //   {
