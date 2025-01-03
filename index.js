@@ -1,6 +1,6 @@
 import {
     bio,
-    // skills,
+    skills,
     projects,
     education,
     experience,
@@ -472,7 +472,7 @@ import { URLs } from './user-data/urls.js';
   populateBio(bio, "bio");
   
   fetchGitConnectedData(gitConnected);
-  
+
   populateExp_Edu(education, "education");
   populateExp_Edu(experience, "experience");
 
