@@ -83,7 +83,7 @@ export const education = [
         the first latin honor awardee from the more than 10-year history of the department.`,
       `Served as the student chapter president for Philippines Institute of Civil Engineers (PICE) on the last year of my degree`,
       `Represented the university for the South East Asian Minister of Education Organization – SEA-TVET Internship Exchange Program in Indonesia
-        for technical and management training and cultural immersion.`,
+        for technical and management training, and cultural immersion.`,
       
     ],
     tags: [
@@ -99,70 +99,30 @@ export const education = [
 
 export const experience = [
   {
-    title: "Shiprocket (Bigfoot Solution Private Limited)",
-    duration: "September 2022 - Present",
-    subtitle: "Software Engineer",
-    details: ["Working in support and escalation team."],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-    icon: "truck ",
-  },
-  {
-    title: "Biofourmis India Private Limited",
-    duration: "April 2022 - Jul 2023",
-    subtitle: "Software Engineer",
+    title: "Aboitiz Construction, Inc.",
+    duration: "April 2022 - August 2023",
+    subtitle: "Commercial Management Engineer",
     details: [
       `Implemented microfrontends using the Module Federation Plugin in Angular.
             Rendered components from remote modules/repositories, enabling a modular and scalable architecture`,
-      `Upgraded application with a dynamic base URL for flexible operation across multiple regions and verticals, leading to
-            recognition with the Biofourmis Bravo award in Q1, 2023.`,
-      `Implemented RxState for managing local state in components, resulting in elegant and reactive facades.`,
-      `Utilized Twilio-Video for group video call rooms and Countly for Web Analytics.`,
-      `Integrated NGXS WebSocket, enhancing state management and replacing legacy service injections.`,
-      `Implemented extensive RxJS usage for reactive programming, resulting in efficient data handling, improved state
-            management, and enhanced application performance.`,
-      `Dramatically optimized load time and performance through code splitting, lazy loading, caching, and preload`,
-      `Enhanced video call experience by implementing real-time switching of I/O devices and audio level indicators,
-            resulting in reduced audio issues and increased user satisfaction.`,
-      `Owned and led successful Angular application upgrades from version 12 to 13 and 14, improving performance
-            and enhancing features.`,
     ],
-    tags: [
-      "JavaScript",
-      "Angular",
-      "RxJS",
-      "NGXS",
-      "TypeScript",
-      "RxState",
-      "Webpack",
-      "Optimization",
-    ],
-    icon: "heartbeat",
+    tags: ["Project Management", "Business Development", "Data Analysis",
+      "Client Relations", "Database Management", "Google Data Studio", "SAP"],
+    icon: "",
   },
+
   {
-    title: "Novopay Solutions Private Limited",
-    duration: "June 2020 - April 2022",
-    subtitle: "Software Engineer",
+    title: "JGC Philippines, Inc.",
+    duration: "January 2020 - April 2022",
+    subtitle: "Design Engineer",
     details: [
-      `Implemented AePS Services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements,
-            and Money transfer.`,
-      `Implemented QR Code integration for retailer wallet money loading, Clevertap events for user action tracking,
-            Freshdesk ticketing, Chatbot services, and Retailer onboarding/admin interfaces.`,
-      `Developed retailer QR code system for seamless money loading into wallets, resulting in improved user transactions.`,
-      `Achieved 70 percent code coverage of the entire application by writing unit tests for legacy code.`,
+      `Implemented microfrontends using the Module Federation Plugin in Angular.
+            Rendered components from remote modules/repositories, enabling a modular and scalable architecture`,
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-    icon: "qrcode",
+    tags: ["Technical Document Analysis", "International Engineering Standards and Codes", "MS Excel", "VBA"],
+    icon: "",
   },
-  {
-    title: "ThinkPedia LLP",
-    duration: "May 2019 - June 2019",
-    subtitle: "SDE Intern",
-    details: [
-      `Developed a customer web application for social media management, supporting the advertisement domain.`,
-    ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
-    icon: "group",
-  },
+  
 ];
 
 export const projects = {
