@@ -72,7 +72,7 @@ export const education = [
       "Python",
       "Data Engineering",
     ],
-    icon: "images/01 Education - Graduate.png",
+    icon: "images/01_EducationGraduate.png",
   },
   {
     title: "Nueva Ecija University of Science and Technology",
@@ -93,7 +93,7 @@ export const education = [
       "Data Analysis",
 
     ],
-    icon: "images/01 Education - College.png",
+    icon: "images/01_EducationCollege.png",
   },
 ];
 
