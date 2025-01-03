@@ -1,7 +1,8 @@
 export const bio = [
-  "Hello! I'm Vinay Somawat, an experienced Frontend Software Engineer with a proven ability to upgrade applications, optimize performance, and deliver innovative solutions.",
-  "I am passionate about using my technical skills to drive impactful contributions in challenging projects.",
-  "Thanks for visiting!",
+  "Hello, this is Josh and welcome to my portfolio!",
+  "Multi-skilled, highly competent engineer offering extensive experience and a commitment to continuous growth.",
+  "With over two years as a structural design engineer at a prominent international EPC company specializing in the oil and gas sector, excelled in developing complex structural solutions and managing intricate projects. Transitioned to a project management engineer role, expanding expertise to encompass financial oversight, scheduling, scoping, and commercial management of various local projects, demonstrating a seamless integration of technical and managerial skills.",
+
 ];
 
 export const skills = [

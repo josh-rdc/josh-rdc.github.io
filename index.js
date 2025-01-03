@@ -486,5 +486,5 @@ import { URLs } from './user-data/urls.js';
   populateProjects(androidProjects, "android-projects");
   populateProjects(freelanceProjects, "freelance-projects");
   
-  populateLinks(footer, "footer");
+  // populateLinks(footer, "footer");
   
