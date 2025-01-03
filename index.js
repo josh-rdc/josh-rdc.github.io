@@ -1,6 +1,6 @@
 import {
     bio,
-    skills,
+    // skills,
     projects,
     education,
     experience,
@@ -471,18 +471,18 @@ import { URLs } from './user-data/urls.js';
   
   populateBio(bio, "bio");
   
-  populateSkills(skills, "skills");
+  populateExp_Edu(education, "education");
+  populateExp_Edu(experience, "experience");
+
+  // populateSkills(skills, "skills");
   
   // fetchBlogsFromMedium(medium);
-  fetchGitConnectedData(gitConnected);
+  // fetchGitConnectedData(gitConnected);
   
   populateProjects(webProjects, "web-projects");
   populateProjects(softwareProjects, "software-projects");
   populateProjects(androidProjects, "android-projects");
   populateProjects(freelanceProjects, "freelance-projects");
-  
-  populateExp_Edu(experience, "experience");
-  populateExp_Edu(education, "education");
   
   populateLinks(footer, "footer");
   
