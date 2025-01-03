@@ -79,9 +79,9 @@ export const education = [
     duration: "",
     subtitle: "Bachelor of Science in Civil Engineering",
     details: [
-      `Proudly graduated department valedictorian and cum laude with a general weighted average of 1.51/1.0, 
+      `Proudly graduated as the department valedictorian and cum laude with a general weighted average of 1.51/1.0, 
         the first latin honor awardee from the more than 10-year history of the department.`,
-      `Served as the Student Chapter President for Philippines Institute of Civil Engineers (PICE) on the last year of my degree`,
+      `Served as the student chapter president for Philippines Institute of Civil Engineers (PICE) on the last year of my degree`,
       `Represented the university for the South East Asian Minister of Education Organization – SEA-TVET Internship Exchange Program in Indonesia
         for technical and management training and cultural immersion.`,
       
