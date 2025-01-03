@@ -300,9 +300,9 @@ function detectDayNightMode() {
   const isDayTime = hours > 6 && hours < 20;
   if (isDayTime === true) {
     // do nothing
-    enableDarkMode()
+    // enableDarkMode()
   } else {
     // remove dark mode
-    enableDarkMode();
+    // enableDarkMode();
   }
 }
